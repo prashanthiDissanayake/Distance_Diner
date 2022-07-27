@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "711935645372",
+    "project_id": "distance-diner",
+    "storage_bucket": "distance-diner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711935645372:android:48a03d48eab902b4e7a2b9",
+        "android_client_info": {
+          "package_name": "com.example.distancediner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711935645372-463p26sv50nd4393vgm0cdqdegk6da5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqv3y11GFbBjZsI5_W72alAbeYSreV9GY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711935645372-463p26sv50nd4393vgm0cdqdegk6da5g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

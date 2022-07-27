@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/food"
+    app:circularflow_radiusInDP="12"
+    tools:context=".MainActivity2">
+
+
+    <View
+        android:id="@+id/container2"
+        android:alpha="0.6"
+        android:layout_width="354dp"
+        android:layout_height="508dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/rounded"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_income6"
+        android:layout_width="268dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="96dp"
+        android:background="@drawable/rounded"
+        android:text="Yummy foods.good customer service"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/container2"
+        app:layout_constraintEnd_toEndOf="@+id/container2"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="@+id/container2"
+        app:layout_constraintTop_toBottomOf="@+id/txt_income4"
+        app:layout_constraintVertical_bias="0.976"
+        tools:text="@string/rv8" />
+
+    <TextView
+        android:id="@+id/txt_income5"
+        android:layout_width="273dp"
+        android:layout_height="68dp"
+        android:background="@drawable/rounded"
+        android:text="Highly recommended.delicious foods..."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/container2"
+        app:layout_constraintEnd_toEndOf="@+id/container2"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="@+id/container2"
+        app:layout_constraintTop_toBottomOf="@+id/txt_income4"
+        app:layout_constraintVertical_bias="0.911"
+        tools:text="@string/rv10" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="132dp"
+        android:layout_height="48dp"
+        android:background="@drawable/custom_button"
+        android:onClick="btnGo"
+        android:text="@string/btn6"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/container2"
+        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintStart_toStartOf="@+id/container2"
+        app:layout_constraintTop_toTopOf="@+id/container2"
+        app:layout_constraintVertical_bias="0.556"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="129dp"
+        android:layout_height="53dp"
+        android:background="@drawable/custom_button"
+        android:onClick="btnGo"
+        android:text="@string/btn5"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/container2"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="@+id/container2"
+        app:layout_constraintTop_toTopOf="@+id/container2"
+        app:layout_constraintVertical_bias="0.556"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/txt_income4"
+        android:layout_width="272dp"
+        android:layout_height="65dp"
+        android:background="@drawable/rounded"
+        android:text="Foods are amazing.Highly recommended."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/container2"
+        app:layout_constraintEnd_toEndOf="@+id/container2"
+        app:layout_constraintStart_toStartOf="@+id/container2"
+        app:layout_constraintTop_toTopOf="@+id/container2"
+        app:layout_constraintVertical_bias="0.462"
+        tools:text="@string/rv9" />
+
+    <EditText
+        android:id="@+id/txt_todayProfits"
+        android:layout_width="254dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/txt2"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/container2"
+        app:layout_constraintEnd_toEndOf="@+id/container2"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/container2"
+        app:layout_constraintTop_toTopOf="@+id/container2"
+        app:layout_constraintVertical_bias="0.015" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="132dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="188dp"
+        android:background="@drawable/custom_button"
+        android:onClick="btnGo"
+        android:text="@string/btn2"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/container"
+        app:layout_constraintHorizontal_bias="0.819"
+        app:layout_constraintStart_toStartOf="@+id/container2"
+        app:layout_constraintTop_toTopOf="@+id/container2"
+        app:layout_constraintVertical_bias="0.278"
+        tools:ignore="OnClick,UnknownIdInLayout" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:hint="@string/rv11"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/teal_700"
+        android:textColorLink="@color/black"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/container2"
+        app:layout_constraintEnd_toEndOf="@+id/container2"
+        app:layout_constraintStart_toStartOf="@+id/container2"
+        app:layout_constraintTop_toTopOf="@+id/container2"
+        app:layout_constraintVertical_bias="0.16" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

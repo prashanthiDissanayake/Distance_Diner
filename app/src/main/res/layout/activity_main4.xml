@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/food"
+    app:circularflow_radiusInDP="12"
+    tools:context=".MainActivity4">
+
+
+    <View
+        android:id="@+id/container4"
+        android:alpha="0.6"
+        android:layout_width="354dp"
+        android:layout_height="508dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/rounded"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn12"
+        android:layout_width="132dp"
+        android:layout_height="48dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/btn10"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/container4"
+        app:layout_constraintEnd_toEndOf="@+id/container4"
+        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintStart_toStartOf="@+id/container4"
+        app:layout_constraintTop_toTopOf="@+id/container4"
+        app:layout_constraintVertical_bias="0.619" />
+
+    <Button
+        android:id="@+id/btn25"
+        android:layout_width="132dp"
+        android:layout_height="48dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/btn25"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/container4"
+        app:layout_constraintEnd_toEndOf="@+id/container4"
+        app:layout_constraintHorizontal_bias="0.171"
+        app:layout_constraintStart_toStartOf="@+id/container4"
+        app:layout_constraintTop_toTopOf="@+id/container4"
+        app:layout_constraintVertical_bias="0.952" />
+
+    <EditText
+        android:id="@+id/firstTrip_expenses4"
+        android:layout_width="319dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="@drawable/rounded"
+        android:alpha="0.7"
+        android:text="@string/fd6"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/container4"
+        app:layout_constraintEnd_toEndOf="@+id/container4"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="@+id/container4"
+        app:layout_constraintTop_toTopOf="@+id/container4"
+        app:layout_constraintVertical_bias="0.792" />
+
+    <Button
+        android:id="@+id/btn10"
+        android:layout_width="132dp"
+        android:layout_height="48dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/btn10"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/container4"
+        app:layout_constraintEnd_toEndOf="@+id/container4"
+        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintStart_toStartOf="@+id/container4"
+        app:layout_constraintTop_toTopOf="@+id/container4"
+        app:layout_constraintVertical_bias="0.952" />
+
+    <Button
+        android:id="@+id/btn24"
+        android:layout_width="132dp"
+        android:layout_height="48dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/btn24"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/container4"
+        app:layout_constraintEnd_toEndOf="@+id/container4"
+        app:layout_constraintHorizontal_bias="0.171"
+        app:layout_constraintStart_toStartOf="@+id/container4"
+        app:layout_constraintTop_toTopOf="@+id/container4"
+        app:layout_constraintVertical_bias="0.619" />
+
+    <EditText
+        android:id="@+id/firstTrip_expenses3"
+        android:layout_width="319dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="@drawable/rounded"
+        android:alpha="0.7"
+        android:text="@string/fd5"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/container4"
+        app:layout_constraintEnd_toEndOf="@+id/container4"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="@+id/container4"
+        app:layout_constraintTop_toTopOf="@+id/container4"
+        app:layout_constraintVertical_bias="0.439" />
+
+    <Button
+        android:id="@+id/btn23"
+        android:layout_width="132dp"
+        android:layout_height="48dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/btn23"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/container4"
+        app:layout_constraintEnd_toEndOf="@+id/container4"
+        app:layout_constraintHorizontal_bias="0.171"
+        app:layout_constraintStart_toStartOf="@+id/container4"
+        app:layout_constraintTop_toTopOf="@+id/container4"
+        app:layout_constraintVertical_bias="0.241" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="132dp"
+        android:layout_height="48dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/btn10"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/container4"
+        app:layout_constraintEnd_toEndOf="@+id/container4"
+        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintStart_toStartOf="@+id/container4"
+        app:layout_constraintTop_toTopOf="@+id/container4"
+        app:layout_constraintVertical_bias="0.241" />
+
+    <EditText
+        android:id="@+id/firstTrip_expenses2"
+        android:layout_width="319dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="@drawable/rounded"
+        android:alpha="0.7"
+        android:text="@string/fd4"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/container4"
+        app:layout_constraintEnd_toEndOf="@+id/container4"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="@+id/container4"
+        app:layout_constraintTop_toTopOf="@+id/container4"
+        app:layout_constraintVertical_bias="0.072" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

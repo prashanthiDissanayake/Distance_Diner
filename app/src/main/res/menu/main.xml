@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="REFRESH"
+        android:id="@+id/refresh"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/refresh"
+        />
+
+    <item android:title="Add Reviews"
+        android:id="@+id/Profits"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+
+    <item android:title="Retrieve Reviews"
+        android:id="@+id/todayProfits"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+
+    <item android:title="View Feedbacks"
+        android:id="@+id/profitSummary"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+
+    <item android:title="Edit Feedbacks"
+        android:id="@+id/FeedbackSummary"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+</menu>
